@@ -295,14 +295,14 @@ def orbital_elem(r,v,obj='sun'):
 
 """2I/Borisov - uncomment below lines to run"""
 
-x1 = np.array([7.24947, 14.61063, 14.24274])
-x2 = np.array([-8.241709e-3, -1.156219e-2, -1.3171359e-2])
+# x1 = np.array([7.24947, 14.61063, 14.24274])
+# x2 = np.array([-8.241709e-3, -1.156219e-2, -1.3171359e-2])
 
-r = au_to_km(x1)
-v = au_per_day_to_km_per_s(x2)
+# r = au_to_km(x1)
+# v = au_per_day_to_km_per_s(x2)
 
-res = orbital_elem(r,v,obj='sun')
-print(res)
+# res = orbital_elem(r,v,obj='sun')
+# print(res)
 
     
     
